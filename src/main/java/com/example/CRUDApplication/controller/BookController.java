@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-//@ResponseBody
+@ResponseBody
 public class BookController {
     @Autowired
     private BookService bookService;
